@@ -10,8 +10,8 @@ $(document).ready(function(){
     $(".cash").each(function(i){
         var rotationNum=Math.round((Math.random()*720)+1);
         var rotation="rotate("+rotationNum+"deg)";
-        var posx = Math.round(Math.random() * ww)-20;
-        var posy = Math.round(Math.random() * wh)-20;
+        var posx = Math.round(Math.random() * ww)-50;
+        var posy = Math.round(Math.random() * wh)-50;
         $(this).css("top", posy + "px").css("left", posx + "px").css("transform",rotation).css("-ms-transform",rotation).css("-webkit-transform",rotation);
     });
     //they spinnin' baby
