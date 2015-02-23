@@ -1,0 +1,24 @@
+.cash{
+	position: absolute;
+  	width: 150px;
+	height: 150px;
+	background-image: url('cashMoney.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.navbar-brand{
+    font-family: 'Cardo', serif;
+}
+
+.navbar{
+    text-align: center;
+    background-color: rgb(0, 120, 70);
+ }
+
+body {
+    background-image: url("cash.jpg");
+	background-size: cover;
+}
+
+
