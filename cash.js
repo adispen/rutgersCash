@@ -26,11 +26,12 @@ $(document).ready(function(){
             duration:'slow'
         },'linear');
         play()
-		setTimeout()	
+		setTimeout()
     });
     function play(){
          var audio = document.getElementById("audio");
          audio.play();
     }
-	setTimeout(function() { $('body').css("background-image","url(./cash.jpg)"); }, 5000);
+	setTimeout( function() { $('body').css("background-image","url(./cash.jpg)");}, 5000);	
+	$('.navbar').click(function(){ $('body').css("background-image","url(./cash.jpg)"); });
 });
