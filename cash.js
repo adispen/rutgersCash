@@ -16,6 +16,7 @@ $(document).ready(function(){
     });
     //they spinnin' baby
     $('.cash').click(function(){
+		$('body').css("background-image","url(./cashtophatmonocle.png)");
         $('.cash').animate({  borderSpacing: -1080 }, {
             step: function(now,fx) {
             $(this).css('-webkit-transform','rotate('+now+'deg)');
